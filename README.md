@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--drive--jduc1.hlx.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--drive--jduc1.aem.page/
+- Live: https://main--drive--jduc1.aem.live/
 
 ## Documentation
 
