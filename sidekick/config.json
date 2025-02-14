@@ -1,6 +1,6 @@
 {
   "project": "My Project",
-  "host": "https://main--drive--jduc1.aem.page/,
+  "host": "https://main--drive--jduc1.aem.page/",
  "plugins": [
     {
   "id": "library",
