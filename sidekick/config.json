@@ -6,7 +6,7 @@
   "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "url": "https://main--drive--jduc1.aem.page//tools/sidekick/library.html",
+      "url": "https://main--drive--jduc1.aem.page/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
