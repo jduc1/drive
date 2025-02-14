@@ -1,42 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta name="Description" content="Sidekick Library" />
-    <meta name="robots" content="noindex" />
-    <base href="/" />
-
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        background-color: #ededed;
-        height: 100%;
-      }
-      
-      helix-sidekick { display: none }
-    </style>
-    <title>Sidekick Library</title>
-  </head>
-
-  <body>
-    <script
-      type="module"
-      src="https:///main--rosalind-boilerplate--dylandepass.hlx.live/tools/sidekick/library.html?plugin=blocks"
-    ></script>
-    <script>
-      const library = document.createElement('sidekick-library')
-      library.config = {
-        base: '/tools/sidekick/library.json',
-      }
-
-      document.body.prepend(library)
-    </script>
-  </body>
-</html>
+{
+  "project": "My Project",
+  "host": "https://main--drive--jduc1.aem.page/,
+ "plugins": [
+    {
+  "id": "library",
+      "title": "Library",
+      "environments": [ "edit" ],
+      "url": "https://main--drive--jduc1.aem.page//tools/sidekick/library.html",
+      "includePaths": [ "**.docx**" ]
+    },
+    {
+      "id": "asset-library",
+      "title": "My Assets",
+      "environments": [ "edit" ],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
+      "isPalette": true,
+      "includePaths": [ "**.docx**" ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:800px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": [ "preview", "live", "edit" ],
+      "includePaths": ["**.docx**"]
+    }
+  ]
+}
