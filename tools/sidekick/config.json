@@ -1,1 +1,12 @@
-
+{
+  "project": "DRIVE",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": [ "edit" ],
+      "url": "https://main--drive--jduc1.aem.page//tools/sidekick/library.html",
+      "includePaths": [ "**.docx**" ]
+    }
+  ]
+}
